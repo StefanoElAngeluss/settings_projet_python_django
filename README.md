@@ -4,6 +4,8 @@
 
 ## requirements.txt
 
+settings_projet_python_django
+
 - asgiref==3.6.0
 - Django==4.1.7
 - Pillow==9.4.0
@@ -57,3 +59,9 @@
 
 - python manage.py migrate nom-de-l'application --fake-initial
 
+# Générer un SECRET KEY
+
+> > > import secrets
+> > > secrets.token_bytes(16)
+> > > secrets.token_hex(16)
+> > > token_urlsafe(16)
